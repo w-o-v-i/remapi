@@ -1,6 +1,7 @@
 from twilio.rest import Client
 from fastapi import FastAPI
-import uvicorn
+
+# import uvicorn
 import datetime, time, multiprocessing
 import os
 
