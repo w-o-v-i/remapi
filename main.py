@@ -50,4 +50,4 @@ if __name__ == "__main__":
     p = multiprocessing.Process(target=check_reminder)
     p.start()
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=80)
