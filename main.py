@@ -28,6 +28,7 @@ def send_whatsapp_message(message, phone_number):
 def set_reminder(phone_number: str, message: str, time: str):
     dirName = f"{time}_{phone_number}_{message}"
     print("...Creating Folder...")
+    print(datetime.datetime.now())
     if not os.path.exists(dirName):
         os.makedirs(dirName)
         print("...Folder Created...")
